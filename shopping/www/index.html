@@ -17,7 +17,7 @@
     specific language governing permissions and limitations
     under the License.
 -->
-<html>
+<!--<html>
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
@@ -29,7 +29,7 @@
     </head>
     <body>
         <div class="app">
-            <h1>Apache Cordova</h1>
+            <a href="cordova.html"><h1>Apache Cordova</h1></a>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
@@ -38,4 +38,63 @@
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
+</html>-->
+
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lindsey's Shopping List</title>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+        <div id="box-1"> </div>
+        <div id="box-2"> </div>
+        <div id="page">
+        <div id="icon"> <img src="./img/shoppingcart.png" alt="Shopping cart icon" id="image" height="115" width="153"/>
+        <h1>Shopping List</h1>
+ </div>
+        <div id="main">
+        <div id="top">
+        <div id="form">
+        <input type="text" id="newItem" placeholder="enter your items">
+        <input type="submit" id="addItem" value="+">
+        </div>
+    <div class="line"> </div>
+    </div>
+    </div>
+        <div id="bottom">
+        <div class="items">
+        <ul id="itemList">
+    </ul>
+    </div>
+    </div>
+    </div>
+         <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36251023-1']);
+      _gaq.push(['_setDomainName', 'jqueryscript.net']);
+      _gaq.push(['_trackPageview']);
+
+  (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+</script>
+
+<footer style="
+    position: fixed; bottom: 0; left: 0;
+    width: 100%; height: 20px; font-size: 20px">
+    Baker Inc
+</footer>
+</body>
 </html>
